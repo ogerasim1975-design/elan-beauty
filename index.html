@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ÉLAN BEAUTY — демо-сайт салона красоты</title>
+<meta name="description" content="Демонстрационный проект: лендинг премиального салона красоты. Салон вымышленный.">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<div class="demo-bar">Демонстрационный проект: салон вымышленный, цены и сведения условные</div>
+<header class="top">
+  <a class="brand" href="#top">ÉLAN <span>BEAUTY</span></a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Меню</button>
+  <nav id="nav" aria-label="Основное меню">
+    <a href="#services">Услуги</a><a href="#why">Преимущества</a><a href="#gallery">Галерея</a><a href="#masters">Мастера</a><a href="#steps">Запись</a><a href="#faq">Вопросы</a><a href="#contacts">Контакты</a>
+  </nav>
+</header>
+<main id="top">
+<section class="hero wrap">
+  <div class="hero-text reveal">
+    <p class="eyebrow">Салон красоты · демо</p>
+    <h1>Время, которое принадлежит только вам</h1>
+    <p class="lead">Уход за руками, кожей и волосами в атмосфере спокойствия и внимания к деталям.</p>
+    <a class="btn" href="#services">Выбрать услугу</a>
+    <a class="btn o" href="#quiz">Подобрать за минуту</a>
+  </div>
+  <img class="arch reveal" src="hero.jpg" width="900" height="1200" alt="Женские руки с красным французским маникюром">
+</section>
+
+<section id="services" class="wrap">
+  <p class="eyebrow">Услуги</p><h2>Выберите свой ритуал</h2>
+  <div class="grid3">
+    <article class="card reveal"><h3>Маникюр</h3><p>Аккуратная форма, стойкое покрытие и дизайн на ваш вкус.</p><div class="row"><span class="price">от 2 500 ₽</span><button class="link" type="button" data-service="Маникюр">Записаться</button></div></article>
+    <article class="card reveal"><h3>Педикюр</h3><p>Бережная обработка и уход, после которого ногам легко.</p><div class="row"><span class="price">от 3 200 ₽</span><button class="link" type="button" data-service="Педикюр">Записаться</button></div></article>
+    <article class="card reveal"><h3>Уход за лицом</h3><p>Очищение, увлажнение и сияние кожи без лишних процедур.</p><div class="row"><span class="price">от 4 500 ₽</span><button class="link" type="button" data-service="Уход за лицом">Записаться</button></div></article>
+    <article class="card reveal"><h3>Стрижка и укладка</h3><p>Форма, которая держится, и укладка для любого повода.</p><div class="row"><span class="price">от 3 000 ₽</span><button class="link" type="button" data-service="Стрижка и укладка">Записаться</button></div></article>
+    <article class="card reveal"><h3>Брови и ресницы</h3><p>Выразительный взгляд и естественный результат.</p><div class="row"><span class="price">от 2 800 ₽</span><button class="link" type="button" data-service="Брови и ресницы">Записаться</button></div></article>
+    <article class="card reveal"><h3>SPA-массаж</h3><p>Время, чтобы выдохнуть и полностью расслабиться.</p><div class="row"><span class="price">от 5 000 ₽</span><button class="link" type="button" data-service="SPA-массаж">Записаться</button></div></article>
+  </div>
+</section>
+
+<section id="quiz" class="band"><div class="wrap narrow">
+  <p class="eyebrow">Демо-квиз</p><h2>Не знаете, что выбрать?</h2>
+  <div id="quiz-box" class="quiz" aria-live="polite"></div>
+</div></section>
+
+<section id="why" class="wrap">
+  <p class="eyebrow">Преимущества</p><h2>Почему выбирают нас</h2>
+  <div class="grid4">
+    <div class="adv reveal"><b>01</b><h3>Индивидуальный подход</h3><p>Подбираем уход под ваши задачи и ритм жизни.</p></div>
+    <div class="adv reveal"><b>02</b><h3>Стерильные инструменты</h3><p>Каждый набор обрабатывается перед визитом.</p></div>
+    <div class="adv reveal"><b>03</b><h3>Премиальные материалы</h3><p>Работаем с проверенными профессиональными брендами.</p></div>
+    <div class="adv reveal"><b>04</b><h3>Комфортная атмосфера</h3><p>Тишина, мягкий свет и никакой спешки.</p></div>
+  </div>
+</section>
+
+<section id="gallery" class="band"><div class="wrap">
+  <p class="eyebrow">Галерея</p><h2>Работы и пространство</h2>
+  <div class="gal">
+    <figure class="g reveal"><img src="green.jpg" width="800" height="1200" loading="lazy" alt="Маникюр: тёмно-зелёный лак и рисунок листа"><figcaption>Маникюр</figcaption></figure>
+    <figure class="g ph reveal"><span>Интерьер</span><figcaption>Фото будет добавлено</figcaption></figure>
+    <figure class="g reveal"><img src="hero.jpg" width="900" height="1200" loading="lazy" alt="Маникюр: красный французский дизайн"><figcaption>Французский маникюр</figcaption></figure>
+    <figure class="g ph reveal"><span>Кабинет ухода</span><figcaption>Фото будет добавлено</figcaption></figure>
+  </div>
+</div></section>
+
+<section id="masters" class="wrap">
+  <p class="eyebrow">Мастера</p><h2>Знакомьтесь с командой</h2>
+  <p class="muted">Имена вымышленные, фото появятся в рабочем проекте.</p>
+  <div class="grid3">
+    <div class="master reveal"><div class="mono">А</div><h3>Анна</h3><p>Мастер маникюра и педикюра</p></div>
+    <div class="master reveal"><div class="mono">М</div><h3>Мария</h3><p>Косметолог, уход за лицом</p></div>
+    <div class="master reveal"><div class="mono">Е</div><h3>Елена</h3><p>Стилист по волосам</p></div>
+  </div>
+</section>
+
+<section id="steps" class="band"><div class="wrap">
+  <p class="eyebrow">Запись</p><h2>Как это работает</h2>
+  <ol class="steps">
+    <li class="reveal"><h3>Выберите услугу</h3><p>В каталоге или с помощью квиза.</p></li>
+    <li class="reveal"><h3>Оставьте заявку</h3><p>Имя, телефон и удобное пожелание.</p></li>
+    <li class="reveal"><h3>Получите подтверждение</h3><p>Администратор свяжется и согласует время.</p></li>
+    <li class="reveal"><h3>Приходите</h3><p>Мы всё подготовим к вашему визиту.</p></li>
+  </ol>
+</div></section>
+
+<section id="faq" class="wrap narrow">
+  <p class="eyebrow">Вопросы</p><h2>Частые вопросы</h2>
+  <details><summary>Как записаться?</summary><p>Заполните форму ниже или пройдите квиз: администратор подтвердит время.</p></details>
+  <details><summary>Можно ли перенести запись?</summary><p>Да, достаточно предупредить заранее. Условия в демо условные.</p></details>
+  <details><summary>Сколько длится процедура?</summary><p>От часа до нескольких часов, в зависимости от услуги.</p></details>
+  <details><summary>Это настоящий салон?</summary><p>Нет, это демонстрационный проект для портфолио. Салон, цены и мастера вымышленные.</p></details>
+</section>
+
+<section id="booking" class="band"><div class="wrap narrow">
+  <p class="eyebrow">Заявка</p><h2>Записаться на услугу</h2>
+  <form id="form" novalidate>
+    <label for="name">Имя</label>
+    <input id="name" name="name" autocomplete="name" aria-describedby="e-name"><div class="err" id="e-name"></div>
+    <label for="phone">Телефон</label>
+    <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+7 ___ ___ __ __" aria-describedby="e-phone"><div class="err" id="e-phone"></div>
+    <label for="service">Услуга</label>
+    <select id="service" name="service" aria-describedby="e-service"><option value="">Выберите услугу</option><option>Маникюр</option><option>Педикюр</option><option>Уход за лицом</option><option>Стрижка и укладка</option><option>Брови и ресницы</option><option>SPA-массаж</option></select><div class="err" id="e-service"></div>
+    <label for="comment">Пожелания (необязательно)</label>
+    <textarea id="comment" name="comment" rows="3"></textarea>
+    <label class="chk"><input type="checkbox" id="consent" name="consent" aria-describedby="e-consent"> Согласен(на) на обработку данных (в демо данные не сохраняются)</label><div class="err" id="e-consent"></div>
+    <button class="btn" type="submit">Отправить заявку</button>
+    <p id="form-msg" class="demo-msg" role="status"></p>
+  </form>
+</div></section>
+</main>
+
+<footer id="contacts" class="foot">
+  <div class="wrap fgrid">
+    <div><div class="brand">ÉLAN <span>BEAUTY</span></div><p class="muted">Демонстрационный проект, салон вымышленный.</p></div>
+    <div><h3>Контакты (демо)</h3><p>г. Вымышленный, ул. Демонстрационная, 1<br>+7 (000) 000-00-00<br>demo@example.com<br>Ежедневно 10:00–21:00</p></div>
+    <div><h3>О проекте</h3><p>Сайт создан для портфолио «Ольга.Диджитал». <a href="https://max.ru/+79505018633" target="_blank" rel="noopener">Хотите такой же? Написать в MAX</a></p></div>
+  </div>
+  <p class="copy">Демо-проект · Фото: Pexels</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
