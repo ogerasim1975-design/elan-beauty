@@ -18,7 +18,11 @@
   </nav>
 </header>
 <main id="top">
-<section class="hero wrap">
+<section class="hero">
+  <picture>
+    <source media="(max-width:700px)" srcset="interior-m.jpg">
+    <img class="hero-img" src="interior.jpg" width="1600" height="1067" fetchpriority="high" alt="Интерьер салона ÉLAN BEAUTY: мраморная стойка ресепшен, тёплый свет и живые цветы">
+  </picture>
   <div class="hero-text reveal">
     <p class="eyebrow">Салон красоты · демо</p>
     <h1>Время, которое принадлежит только вам</h1>
@@ -26,7 +30,6 @@
     <a class="btn" href="#services">Выбрать услугу</a>
     <a class="btn o" href="#quiz">Подобрать за минуту</a>
   </div>
-  <img class="arch reveal" src="hero.jpg" width="900" height="1200" alt="Женские руки с красным французским маникюром">
 </section>
 
 <section id="services" class="wrap">
@@ -60,9 +63,12 @@
   <p class="eyebrow">Галерея</p><h2>Работы и пространство</h2>
   <div class="gal">
     <figure class="g reveal"><img src="green.jpg" width="800" height="1200" loading="lazy" alt="Маникюр: тёмно-зелёный лак и рисунок листа"><figcaption>Маникюр</figcaption></figure>
-    <figure class="g ph reveal"><span>Интерьер</span><figcaption>Фото будет добавлено</figcaption></figure>
+    <figure class="g reveal"><button class="zoom" type="button" data-full="interior-room.jpg" aria-label="Увеличить фото: зона ожидания"><picture><source media="(max-width:700px)" srcset="interior-room-m.jpg"><img src="interior-room.jpg" width="1086" height="1448" loading="lazy" alt="Зона ожидания салона: оливковые бархатные кресла, мраморный пол, растения и золотистые детали. Демонстрационный проект"></picture></button><figcaption>Зона ожидания · демо</figcaption></figure>
     <figure class="g reveal"><img src="hero.jpg" width="900" height="1200" loading="lazy" alt="Маникюр: красный французский дизайн"><figcaption>Французский маникюр</figcaption></figure>
-    <figure class="g ph reveal"><span>Кабинет ухода</span><figcaption>Фото будет добавлено</figcaption></figure>
+    <figure class="g reveal"><button class="zoom" type="button" data-full="care-room.jpg" aria-label="Увеличить фото: кабинет ухода"><picture><source media="(max-width:700px)" srcset="care-room-m.jpg"><img src="care-room.jpg" width="1086" height="1448" loading="lazy" alt="Кабинет ухода: кушетка с мягкими полотенцами, оливковое кресло, тележка с косметикой и тёплый свет. Демонстрационный проект"></picture></button><figcaption>Кабинет ухода · демо</figcaption></figure>
+    <figure class="g wide reveal"><button class="zoom" type="button" data-full="emerald.jpg" aria-label="Увеличить фото: изумрудный маникюр"><img src="emerald.jpg" width="1536" height="1024" loading="lazy" alt="Изумрудный маникюр с золотым рисунком из листьев. Пример работы в демонстрационном проекте"></button><figcaption>Изумрудный маникюр · пример работы (демо)</figcaption></figure>
+    <figure class="g wide reveal"><button class="zoom" type="button" data-full="workspace.jpg" aria-label="Увеличить фото: рабочее место мастера маникюра"><picture><source media="(max-width:700px)" srcset="workspace-m.jpg"><img src="workspace.jpg" width="1536" height="1024" loading="lazy" alt="Рабочее место мастера маникюра: мраморный стол, лампа, оливковые кресла и полки с лаками. Демонстрационный проект"></picture></button><figcaption>Рабочее место мастера · демо</figcaption></figure>
+    <figure class="g wide reveal"><button class="zoom" type="button" data-full="process.jpg" aria-label="Увеличить фото: процесс маникюра"><picture><source media="(max-width:700px)" srcset="process-m.jpg"><img src="process.jpg" width="1536" height="1024" loading="lazy" alt="Мастер в перчатках обрабатывает кутикулу клиентке на мягкой подушке для рук. Демонстрационный проект"></picture></button><figcaption>Процесс маникюра · демо</figcaption></figure>
   </div>
 </div></section>
 
@@ -118,8 +124,9 @@
     <div><h3>Контакты (демо)</h3><p>г. Вымышленный, ул. Демонстрационная, 1<br>+7 (000) 000-00-00<br>demo@example.com<br>Ежедневно 10:00–21:00</p></div>
     <div><h3>О проекте</h3><p>Сайт создан для портфолио «Ольга.Диджитал». <a href="https://max.ru/+79505018633" target="_blank" rel="noopener">Хотите такой же? Написать в MAX</a></p></div>
   </div>
-  <p class="copy">Демо-проект · Фото: Pexels</p>
+  <p class="copy">Демо-проект · Фото: Pexels · Изображения интерьера, рабочего места и процесса маникюра созданы ИИ</p>
 </footer>
+<dialog id="lightbox" class="lb" aria-label="Увеличенное фото"><button class="lb-x" type="button" aria-label="Закрыть">✕</button><img alt=""></dialog>
 <script src="script.js"></script>
 </body>
 </html>

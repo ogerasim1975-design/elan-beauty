@@ -56,3 +56,8 @@ f.onsubmit=e=>{
   out.textContent='Это демонстрационная форма: заявка никуда не отправляется, данные не сохраняются. В рабочем проекте она придёт мастеру на почту или в мессенджер.';
   f.reset();
 };
+
+// увеличение фото
+const lb=$('#lightbox');
+$$('.zoom').forEach(b=>b.onclick=()=>{const i=$('img',lb),t=$('img',b);i.src=b.dataset.full||t.currentSrc||t.src;i.alt=t.alt;lb.showModal()});
+lb.addEventListener('click',e=>{if(e.target===lb||e.target.classList.contains('lb-x'))lb.close()});
